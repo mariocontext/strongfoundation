@@ -43,6 +43,8 @@ define('CURRENT_PAGE_NAME', $pagename);
 
 <body class="<?php echo $page_type_name ." ". $pagename ?>">
 
+<div id="container">
+
 <div id="header">
   <div class="left"></div>
   <div class="center">
