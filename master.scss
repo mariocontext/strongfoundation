@@ -1,0 +1,235 @@
+/* verison 1.1 */
+
+@mixin round_corners($radius) {
+  -moz-border-radius: $radius;
+  -webkit-border-radius: $radius;
+}
+
+$width: 960px;
+
+body {
+  background: url(images/background_bg.gif) top center repeat-y;
+  background-color: #050505;
+  color: #fff;
+  margin: 0px;
+  padding: 0px;
+}
+
+body a {
+  color: #fff;
+}
+
+
+#content_body {
+  position: relative;
+  top: 0px;
+  border: 1px solid #000;
+  width: $width - 12px;
+  margin: 0px auto 0px auto;
+  background-color: #050505;
+  padding: 0px;
+  display: block;
+  padding-left: 10px;
+  padding-right: 10px;
+
+  .left_sidebar_content {
+    display: block;
+    width: 250px;
+    float: left;
+  }
+  
+  .right_sidebar_content {
+    display: block;
+    width: 250px;
+    float: right;
+  }
+  
+  .main_content {
+    display: block;
+    float: left;
+    width: ($width - 12px) - 255px;
+  }
+  .right_content {
+    display: block;
+    width: 250px;
+    float: right;
+  }
+  
+  .ccm-core-commerce-add-to-cart-callout {
+    color: #000;
+    text-align: left;
+    td {
+      text-align: left;
+    }
+  }
+}
+
+
+.clear, .clearfix {
+  display: block;
+  clear: both;
+}
+
+#header_logo {
+  width: 151px;
+  height: 99px;
+  display: block;
+  background: url(images/header_logo.png) top left no-repeat;
+  float: left;
+}
+
+.home_slideshow {
+  display: block;  
+}
+
+#header_navigation {
+  display: block;
+  float: left;
+  position: relative;
+  margin-top: 40px;
+  a {
+    font-size: 18px;
+    text-decoration: none;
+    margin-left: 2px;
+    margin-right: 2px;
+    padding: 5px 7px 5px 7px;
+  }
+  a.nav-selected, a:hover {
+    background-color: #fff;
+    color: #00aae7;
+  }
+}
+
+#nav_btns {
+  display: block;
+  float: right;
+  margin-right: 10px; 
+  position: relative;
+
+  margin-top: 12px;
+  height: 60px;
+  overflow: hidden;
+  
+  a {
+    display: block;
+    float: left;
+    width: 41px;
+    height: 42px;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-decoration: none;
+    overflow: hidden;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 41px;
+    padding-bottom: -80px;
+  }
+  .cart_link {
+    background: url(images/cart_btn.png) top left no-repeat;
+  }
+  .login_link {
+    background: url(images/login_btn.png) top left no-repeat;
+  }
+}
+
+#header {
+  display: block;
+  margin: 0px auto 0px auto;
+  width: 138px + 969px + 139px;
+
+  .left {
+    width: 138px;
+    height: 169px;
+    display: block;
+    float: left;
+    background: url(images/top_left.png) top left no-repeat;
+    overflow: hidden;
+  }
+
+  .center {
+    width: 969px;
+    height: 169px;
+    display: block;
+    float: left;
+    background: url(images/top_center.png) top left no-repeat;
+  }
+
+  .right {
+    width: 139px;
+    height: 169px;
+    display: block;
+    float: left;
+    background: url(images/top_right.png) top left no-repeat;
+  }
+}
+
+
+
+#footer {
+  display: block;
+  margin: 0px auto 0px auto;
+  width: 138px + 969px + 139px;
+
+  .left {
+    width: 138px;
+    height: 226px;
+    display: block;
+    float: left;
+    background: url(images/bottom_left.png) top left no-repeat;
+    overflow: hidden;
+  }
+
+  .center {
+    width: 969px;
+    height: 226px;
+    display: block;
+    float: left;
+    background: url(images/bottom_center.png) top left no-repeat;
+  }
+
+  .right {
+    width: 139px;
+    height: 226px;
+    display: block;
+    float: left;
+    background: url(images/bottom_right.png) top left no-repeat;
+  }
+  
+  .footer_logo {
+    display: block;
+    float: right;
+    width: 148px;
+    height: 96px;
+    background: url(images/bottom_logo.png) top left no-repeat;
+    position: relative;
+    top: 75px;
+    right: 30px;
+  }
+  
+  .footer_navigation {
+    display: block;
+    float: left;
+    position: relative;
+    left: 20px;
+    margin-top: 80px;
+    a {
+      font-size: 18px;
+      text-decoration: none;
+      margin-left: 2px;
+      margin-right: 2px;
+      padding: 5px 7px 5px 7px;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+  }
+  
+  .copyright {
+    display: block;
+    font-size: 11px;
+    position: relative;
+    top: 60px;
+    left: 10px;
+  }
+}
+
