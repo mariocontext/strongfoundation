@@ -1,28 +1,28 @@
-/* verison 1.3 - prophet */
-/* line 11, master.scss */
+/* verison 1.4 - prophet */
+/* line 19, master.scss */
 html, body {
   background-color: #150802;
 }
 
-/* line 16, master.scss */
+/* line 24, master.scss */
 body {
-  background: url(images/The-Prophets-Son_web.jpg) top center repeat-x;
+  background: url(images/The-Prophets-Son_web.jpg) 342px -160px repeat-x;
   background-attachment: fixed;
   color: #fff;
   margin: 0px;
   padding: 0px;
 }
 
-/* line 27, master.scss */
+/* line 35, master.scss */
 body a {
   color: #fcdb7e;
 }
-/* line 30, master.scss */
+/* line 38, master.scss */
 body a:hover {
   color: #FFF;
 }
 
-/* line 37, master.scss */
+/* line 45, master.scss */
 #container {
   background-color: #150802;
   width: 1000px;
@@ -30,7 +30,7 @@ body a:hover {
   padding: 0px 20px;
 }
 
-/* line 46, master.scss */
+/* line 54, master.scss */
 #content_body {
   position: relative;
   top: 0px;
@@ -41,74 +41,74 @@ body a:hover {
   padding: 0px;
   display: block;
 }
-/* line 56, master.scss */
+/* line 64, master.scss */
 #content_body .left_sidebar_content {
   display: block;
   width: 250px;
   float: left;
 }
-/* line 62, master.scss */
+/* line 70, master.scss */
 #content_body .right_sidebar_content {
   display: block;
   width: 250px;
   float: right;
 }
-/* line 68, master.scss */
+/* line 76, master.scss */
 #content_body .main_content {
   display: block;
   float: left;
   width: 733px;
 }
-/* line 73, master.scss */
+/* line 81, master.scss */
 #content_body .right_content {
   display: block;
   width: 250px;
   float: right;
 }
-/* line 79, master.scss */
+/* line 87, master.scss */
 #content_body .ccm-core-commerce-add-to-cart-callout {
   color: #000;
   text-align: left;
 }
-/* line 82, master.scss */
+/* line 90, master.scss */
 #content_body .ccm-core-commerce-add-to-cart-callout td {
   text-align: left;
 }
 
-/* line 89, master.scss */
+/* line 97, master.scss */
 .clear, .clearfix {
   display: block;
   clear: both;
 }
 
-/* line 94, master.scss */
+/* line 102, master.scss */
 #header_logo {
   width: 151px;
   height: 99px;
   display: block;
-  background: url(images/header_logo.png) top left no-repeat;
+  background: url(images/header_logo_trans.png) top left no-repeat;
   float: left;
 }
 
-/* line 102, master.scss */
+/* line 110, master.scss */
 .home_slideshow {
   display: block;
 }
 
-/* line 106, master.scss */
+/* line 114, master.scss */
 #header_navigation {
   display: block;
   float: left;
   position: relative;
-  top: 75px;
-  left: 30px;
+  top: 80px;
+  left: 20px;
   background: url(images/strong_headernav_bg.png) top left repeat-x;
   padding: 10px;
   -moz-border-radius: 15px;
   -webkit-border-radius: 15px;
   border-radius: 15px;
 }
-/* line 117, master.scss */
+/* line 125, master.scss */
 #header_navigation a {
   font-size: 16px;
   text-decoration: none;
@@ -118,12 +118,12 @@ body a:hover {
   color: #fcdb7e;
   text-transform: uppercase;
 }
-/* line 126, master.scss */
+/* line 134, master.scss */
 #header_navigation a.nav-selected, #header_navigation a:hover {
   color: #FFF;
 }
 
-/* line 131, master.scss */
+/* line 139, master.scss */
 #nav_btns {
   display: block;
   float: right;
@@ -133,11 +133,11 @@ body a:hover {
   height: 60px;
   overflow: hidden;
 }
-/* line 141, master.scss */
+/* line 149, master.scss */
 #nav_btns a {
   display: block;
   float: left;
-  width: 41px;
+  width: 43px;
   height: 42px;
   margin-left: 10px;
   margin-right: 10px;
@@ -147,17 +147,22 @@ body a:hover {
   text-align: center;
   padding-top: 41px;
   padding-bottom: -80px;
+  color: #FFF;
 }
-/* line 155, master.scss */
+/* line 164, master.scss */
+#nav_btns a:hover {
+  color: #fcdb7e;
+}
+/* line 169, master.scss */
 #nav_btns .cart_link {
-  background: url(images/cart_btn.png) top left no-repeat;
+  background: url(images/cart_btn_trans.png) top left no-repeat;
 }
-/* line 158, master.scss */
+/* line 172, master.scss */
 #nav_btns .login_link {
-  background: url(images/login_btn.png) top left no-repeat;
+  background: url(images/login_btn_trans.png) top left no-repeat;
 }
 
-/* line 163, master.scss */
+/* line 177, master.scss */
 #header {
   display: block;
   margin: 0px auto 20px auto;
@@ -166,7 +171,7 @@ body a:hover {
   padding-bottom: 138px;
   background: url(images/prophet_header2.jpg) bottom left no-repeat;
 }
-/* line 171, master.scss */
+/* line 185, master.scss */
 #header .left {
   width: 138px;
   display: block;
@@ -175,7 +180,7 @@ body a:hover {
   background: url(images/top_left.png) top left no-repeat;
   overflow: hidden; */
 }
-/* line 180, master.scss */
+/* line 194, master.scss */
 #header .center {
   width: 969px;
   display: block;
@@ -186,7 +191,7 @@ body a:hover {
   background: url(images/top_center.png) top left no-repeat;
   */
 }
-/* line 191, master.scss */
+/* line 205, master.scss */
 #header .right {
   width: 139px;
   display: block;
@@ -196,7 +201,7 @@ body a:hover {
   */
 }
 
-/* line 203, master.scss */
+/* line 217, master.scss */
 #footer {
   display: block;
   margin: 0px auto 0px auto;
@@ -204,7 +209,7 @@ body a:hover {
   padding-bottom: 100px;
   background: url(images/prophet_footer.jpg) bottom left no-repeat;
 }
-/* line 210, master.scss */
+/* line 224, master.scss */
 #footer .left {
   width: 138px;
   height: 226px;
@@ -215,7 +220,7 @@ body a:hover {
   overflow: hidden;
   */
 }
-/* line 221, master.scss */
+/* line 235, master.scss */
 #footer .center {
   width: 969px;
   height: 226px;
@@ -225,7 +230,7 @@ body a:hover {
   background: url(images/bottom_center.png) top left no-repeat;
   */
 }
-/* line 231, master.scss */
+/* line 245, master.scss */
 #footer .right {
   width: 139px;
   height: 226px;
@@ -235,18 +240,21 @@ body a:hover {
   background: url(images/bottom_right.png) top left no-repeat;
   */
 }
-/* line 241, master.scss */
+/* line 255, master.scss */
 #footer .footer_logo {
   display: block;
   float: right;
-  width: 148px;
-  height: 96px;
-  background: url(images/bottom_logo.png) top left no-repeat;
+  width: 151px;
+  height: 99px;
+  background: url(images/header_logo_trans.png) top left no-repeat;
+  opacity: 0.1;
+  filter: alpha(opacity=10);
+  zoom: 1;
   position: relative;
   top: 75px;
   right: 30px;
 }
-/* line 252, master.scss */
+/* line 267, master.scss */
 #footer .footer_navigation {
   display: block;
   float: left;
@@ -254,7 +262,7 @@ body a:hover {
   left: 20px;
   margin-top: 80px;
 }
-/* line 258, master.scss */
+/* line 273, master.scss */
 #footer .footer_navigation a {
   font-size: 18px;
   text-decoration: none;
@@ -262,15 +270,15 @@ body a:hover {
   margin-right: 2px;
   padding: 5px 7px 5px 7px;
 }
-/* line 265, master.scss */
+/* line 280, master.scss */
 #footer .footer_navigation a {
   font-size: 14px;
 }
-/* line 270, master.scss */
+/* line 285, master.scss */
 #footer .footer_navigation a:hover {
   text-decoration: none;
 }
-/* line 275, master.scss */
+/* line 290, master.scss */
 #footer .copyright {
   display: block;
   font-size: 11px;
