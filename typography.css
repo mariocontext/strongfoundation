@@ -24,6 +24,10 @@ h1, h2, h3, h4, h5, h6 {
 	font-weight: bold;
 }
 
+#container h1, #container h2, #container h3, #container h4 {
+font-family: 'NovecentowideNormalRegular';
+}
+
 #content h1 {
 	font-size: 30px;
 	line-height: 40px;
@@ -55,11 +59,12 @@ h1, h2, h3, h4, h5, h6 {
 
 
 body {
-	font-family: 'QuicksandBook';
+	/* font-family: 'QuicksandBook'; */
 	color: #444;
 	background-color: #e5e5e5;	
 	font-size: 14px;
 	line-height: 20px;
+	font-family: Arial, Verdana, Helvetica, sans-serif;
 }
 
 #featured {
@@ -92,6 +97,4 @@ footer {
 	float: left;
 }
 
-* {
-  font-family: Arial, Verdana, Helvetica, sans-serif;
-}
+

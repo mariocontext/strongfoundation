@@ -3,12 +3,18 @@
 @mixin round_corners($radius) {
   -moz-border-radius: $radius;
   -webkit-border-radius: $radius;
+  border-radius: $radius;
 }
 
-$width: 960px;
+$width: 1000px;
 
+html, body {
+
+background-color: #150802;
+
+}
 body {
-  background-color: #060301;
+ 
   background: url(images/The-Prophets-Son_web.jpg) top center repeat-x;
   background-attachment:fixed;
   color: #fff;
@@ -16,29 +22,36 @@ body {
   padding: 0px;
 }
 
-body a {
-  color: #fff;
+body {
+
+  a {
+    color: #fcdb7e;
+
+      &:hover {
+      color:#FFF;
+        }
+  }
+
 }
 
 #container {
 
-background-color: #060301;
+background-color: #150802;
 width: $width;
 margin: 0px auto 0px auto;
+padding:0px 20px;
 
 }
 
 #content_body {
   position: relative;
   top: 0px;
-  border: 1px solid #000;
+  border: none;
   width: $width - 12px;
   margin: 0px auto 0px auto;
-  background-color: #060301;
+  background-color: #150802;;
   padding: 0px;
   display: block;
-  padding-left: 10px;
-  padding-right: 10px;
 
   .left_sidebar_content {
     display: block;
@@ -94,17 +107,24 @@ margin: 0px auto 0px auto;
   display: block;
   float: left;
   position: relative;
-  margin-top: 40px;
+    top: 75px;
+    left:30px;
+    background:url(images/strong_headernav_bg.png) top left repeat-x;
+padding:10px;
+
+@include round_corners(15px);
+
   a {
-    font-size: 18px;
+    font-size: 16px;
     text-decoration: none;
     margin-left: 2px;
     margin-right: 2px;
     padding: 5px 7px 5px 7px;
+    color:#fcdb7e;
+    text-transform:uppercase;
   }
   a.nav-selected, a:hover {
-    background-color: #fff;
-    color: #00aae7;
+    color: #FFF;
   }
 }
 
@@ -142,12 +162,14 @@ margin: 0px auto 0px auto;
 
 #header {
   display: block;
-  margin: 0px auto 0px auto;
-  width: 138px + 969px + 139px;
+  margin: 0px auto 20px auto;
+  width: $width;
+  height: 140px;
+  padding-bottom:138px;
+  background: url(images/prophet_header2.jpg) bottom left no-repeat;
 
   .left {
     width: 138px;
-    height: 169px;
     display: block;
     float: left;
     /*
@@ -157,9 +179,10 @@ margin: 0px auto 0px auto;
 
   .center {
     width: 969px;
-    height: 169px;
     display: block;
     float: left;
+    position: relative;
+    left:20px;
     /*
     background: url(images/top_center.png) top left no-repeat;
     */
@@ -167,7 +190,6 @@ margin: 0px auto 0px auto;
 
   .right {
     width: 139px;
-    height: 169px;
     display: block;
     float: left;
     /*
@@ -181,7 +203,9 @@ margin: 0px auto 0px auto;
 #footer {
   display: block;
   margin: 0px auto 0px auto;
-  width: 138px + 969px + 139px;
+  width: $width;
+  padding-bottom:100px;
+  background: url(images/prophet_footer.jpg) bottom left no-repeat;
 
   .left {
     width: 138px;
@@ -238,8 +262,13 @@ margin: 0px auto 0px auto;
       margin-right: 2px;
       padding: 5px 7px 5px 7px;
     }
+    a {
+
+      font-size:14px;
+
+    }
     a:hover {
-      text-decoration: underline;
+      text-decoration: none;
     }
   }
   
@@ -248,7 +277,7 @@ margin: 0px auto 0px auto;
     font-size: 11px;
     position: relative;
     top: 60px;
-    left: 10px;
+    left: 30px;
   }
 }
 

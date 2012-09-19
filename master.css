@@ -1,7 +1,11 @@
 /* verison 1.3 - prophet */
-/* line 10, master.scss */
+/* line 11, master.scss */
+html, body {
+  background-color: #150802;
+}
+
+/* line 16, master.scss */
 body {
-  background-color: #060301;
   background: url(images/The-Prophets-Son_web.jpg) top center repeat-x;
   background-attachment: fixed;
   color: #fff;
@@ -9,72 +13,75 @@ body {
   padding: 0px;
 }
 
-/* line 19, master.scss */
+/* line 27, master.scss */
 body a {
-  color: #fff;
+  color: #fcdb7e;
+}
+/* line 30, master.scss */
+body a:hover {
+  color: #FFF;
 }
 
-/* line 23, master.scss */
+/* line 37, master.scss */
 #container {
-  background-color: #060301;
-  width: 960px;
+  background-color: #150802;
+  width: 1000px;
   margin: 0px auto 0px auto;
+  padding: 0px 20px;
 }
 
-/* line 31, master.scss */
+/* line 46, master.scss */
 #content_body {
   position: relative;
   top: 0px;
-  border: 1px solid #000;
-  width: 948px;
+  border: none;
+  width: 988px;
   margin: 0px auto 0px auto;
-  background-color: #060301;
+  background-color: #150802;
   padding: 0px;
   display: block;
-  padding-left: 10px;
-  padding-right: 10px;
 }
-/* line 43, master.scss */
+/* line 56, master.scss */
 #content_body .left_sidebar_content {
   display: block;
   width: 250px;
   float: left;
 }
-/* line 49, master.scss */
+/* line 62, master.scss */
 #content_body .right_sidebar_content {
   display: block;
   width: 250px;
   float: right;
 }
-/* line 55, master.scss */
+/* line 68, master.scss */
 #content_body .main_content {
   display: block;
   float: left;
-  width: 693px;
+  width: 733px;
 }
-/* line 60, master.scss */
+/* line 73, master.scss */
 #content_body .right_content {
   display: block;
   width: 250px;
   float: right;
 }
-/* line 66, master.scss */
+/* line 79, master.scss */
 #content_body .ccm-core-commerce-add-to-cart-callout {
   color: #000;
   text-align: left;
 }
-/* line 69, master.scss */
+/* line 82, master.scss */
 #content_body .ccm-core-commerce-add-to-cart-callout td {
   text-align: left;
 }
 
-/* line 76, master.scss */
+/* line 89, master.scss */
 .clear, .clearfix {
   display: block;
   clear: both;
 }
 
-/* line 81, master.scss */
+/* line 94, master.scss */
 #header_logo {
   width: 151px;
   height: 99px;
@@ -83,33 +90,40 @@ body a {
   float: left;
 }
 
-/* line 89, master.scss */
+/* line 102, master.scss */
 .home_slideshow {
   display: block;
 }
 
-/* line 93, master.scss */
+/* line 106, master.scss */
 #header_navigation {
   display: block;
   float: left;
   position: relative;
-  margin-top: 40px;
+  top: 75px;
+  left: 30px;
+  background: url(images/strong_headernav_bg.png) top left repeat-x;
+  padding: 10px;
+  -moz-border-radius: 15px;
+  -webkit-border-radius: 15px;
+  border-radius: 15px;
 }
-/* line 98, master.scss */
+/* line 117, master.scss */
 #header_navigation a {
-  font-size: 18px;
+  font-size: 16px;
   text-decoration: none;
   margin-left: 2px;
   margin-right: 2px;
   padding: 5px 7px 5px 7px;
+  color: #fcdb7e;
+  text-transform: uppercase;
 }
-/* line 105, master.scss */
+/* line 126, master.scss */
 #header_navigation a.nav-selected, #header_navigation a:hover {
-  background-color: #fff;
-  color: #00aae7;
+  color: #FFF;
 }
 
-/* line 111, master.scss */
+/* line 131, master.scss */
 #nav_btns {
   display: block;
   float: right;
@@ -119,7 +133,7 @@ body a {
   height: 60px;
   overflow: hidden;
 }
-/* line 121, master.scss */
+/* line 141, master.scss */
 #nav_btns a {
   display: block;
   float: left;
@@ -134,45 +148,47 @@ body a {
   padding-top: 41px;
   padding-bottom: -80px;
 }
-/* line 135, master.scss */
+/* line 155, master.scss */
 #nav_btns .cart_link {
   background: url(images/cart_btn.png) top left no-repeat;
 }
-/* line 138, master.scss */
+/* line 158, master.scss */
 #nav_btns .login_link {
   background: url(images/login_btn.png) top left no-repeat;
 }
 
-/* line 143, master.scss */
+/* line 163, master.scss */
 #header {
   display: block;
-  margin: 0px auto 0px auto;
-  width: 1246px;
+  margin: 0px auto 20px auto;
+  width: 1000px;
+  height: 140px;
+  padding-bottom: 138px;
+  background: url(images/prophet_header2.jpg) bottom left no-repeat;
 }
-/* line 148, master.scss */
+/* line 171, master.scss */
 #header .left {
   width: 138px;
-  height: 169px;
   display: block;
   float: left;
   /*
   background: url(images/top_left.png) top left no-repeat;
   overflow: hidden; */
 }
-/* line 158, master.scss */
+/* line 180, master.scss */
 #header .center {
   width: 969px;
-  height: 169px;
   display: block;
   float: left;
+  position: relative;
+  left: 20px;
   /*
   background: url(images/top_center.png) top left no-repeat;
   */
 }
-/* line 168, master.scss */
+/* line 191, master.scss */
 #header .right {
   width: 139px;
-  height: 169px;
   display: block;
   float: left;
   /*
@@ -180,13 +196,15 @@ body a {
   */
 }
 
-/* line 181, master.scss */
+/* line 203, master.scss */
 #footer {
   display: block;
   margin: 0px auto 0px auto;
-  width: 1246px;
+  width: 1000px;
+  padding-bottom: 100px;
+  background: url(images/prophet_footer.jpg) bottom left no-repeat;
 }
-/* line 186, master.scss */
+/* line 210, master.scss */
 #footer .left {
   width: 138px;
   height: 226px;
@@ -197,7 +215,7 @@ body a {
   overflow: hidden;
   */
 }
-/* line 197, master.scss */
+/* line 221, master.scss */
 #footer .center {
   width: 969px;
   height: 226px;
@@ -207,7 +225,7 @@ body a {
   background: url(images/bottom_center.png) top left no-repeat;
   */
 }
-/* line 207, master.scss */
+/* line 231, master.scss */
 #footer .right {
   width: 139px;
   height: 226px;
@@ -217,7 +235,7 @@ body a {
   background: url(images/bottom_right.png) top left no-repeat;
   */
 }
-/* line 217, master.scss */
+/* line 241, master.scss */
 #footer .footer_logo {
   display: block;
   float: right;
@@ -228,7 +246,7 @@ body a {
   top: 75px;
   right: 30px;
 }
-/* line 228, master.scss */
+/* line 252, master.scss */
 #footer .footer_navigation {
   display: block;
   float: left;
@@ -236,7 +254,7 @@ body a {
   left: 20px;
   margin-top: 80px;
 }
-/* line 234, master.scss */
+/* line 258, master.scss */
 #footer .footer_navigation a {
   font-size: 18px;
   text-decoration: none;
@@ -244,15 +262,19 @@ body a {
   margin-right: 2px;
   padding: 5px 7px 5px 7px;
 }
-/* line 241, master.scss */
-#footer .footer_navigation a:hover {
-  text-decoration: underline;
+/* line 265, master.scss */
+#footer .footer_navigation a {
+  font-size: 14px;
 }
-/* line 246, master.scss */
+/* line 270, master.scss */
+#footer .footer_navigation a:hover {
+  text-decoration: none;
+}
+/* line 275, master.scss */
 #footer .copyright {
   display: block;
   font-size: 11px;
   position: relative;
   top: 60px;
-  left: 10px;
+  left: 30px;
 }
