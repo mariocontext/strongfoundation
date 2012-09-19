@@ -6,7 +6,7 @@ html, body {
 
 /* line 24, master.scss */
 body {
-  background: url(images/The-Prophets-Son_web.jpg) 342px -160px repeat-x;
+  background: url(images/The-Prophets-Son_web.jpg) top center repeat-x;
   background-attachment: fixed;
   color: #fff;
   margin: 0px;
@@ -285,4 +285,23 @@ body a:hover {
   position: relative;
   top: 60px;
   left: 30px;
+}
+
+/* misc classes and tweaks */
+/* line 301, master.scss */
+#featured_player {
+  text-align: center;
+}
+
+/* line 307, master.scss */
+#container .ccm-block-styles {
+  border: none;
+}
+
+/* line 311, master.scss */
+#container .ccm-button {
+  clear: both;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  background: none;
 }

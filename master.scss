@@ -23,7 +23,7 @@ background-color: #150802;
 }
 body {
  
-  background: url(images/The-Prophets-Son_web.jpg) 342px -160px repeat-x;
+  background: url(images/The-Prophets-Son_web.jpg) top center repeat-x;
   background-attachment:fixed;
   color: #fff;
   margin: 0px;
@@ -294,5 +294,24 @@ padding:10px;
     top: 60px;
     left: 30px;
   }
+}
+
+/* misc classes and tweaks */
+
+#featured_player {
+
+  text-align: center;
+
+}
+
+#container .ccm-block-styles {
+border:none;
+}
+
+#container .ccm-button {
+    clear: both;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    background: none;
 }
 
