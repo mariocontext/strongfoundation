@@ -23,6 +23,11 @@ body a:hover {
 }
 
 /* line 45, master.scss */
+#container img {
+  border: none;
+}
+
+/* line 51, master.scss */
 #container {
   background-color: #150802;
   width: 1000px;
@@ -30,7 +35,7 @@ body a:hover {
   padding: 0px 20px;
 }
 
-/* line 54, master.scss */
+/* line 60, master.scss */
 #content_body {
   position: relative;
   top: 0px;
@@ -41,47 +46,49 @@ body a:hover {
   padding: 0px;
   display: block;
 }
-/* line 64, master.scss */
+/* line 70, master.scss */
 #content_body .left_sidebar_content {
   display: block;
   width: 250px;
   float: left;
 }
-/* line 70, master.scss */
+/* line 76, master.scss */
 #content_body .right_sidebar_content {
   display: block;
   width: 250px;
   float: right;
+  position: relative;
+  right: -10px;
 }
-/* line 76, master.scss */
+/* line 84, master.scss */
 #content_body .main_content {
   display: block;
   float: left;
   width: 733px;
 }
-/* line 81, master.scss */
+/* line 89, master.scss */
 #content_body .right_content {
   display: block;
   width: 250px;
   float: right;
 }
-/* line 87, master.scss */
+/* line 95, master.scss */
 #content_body .ccm-core-commerce-add-to-cart-callout {
   color: #000;
   text-align: left;
 }
-/* line 90, master.scss */
+/* line 98, master.scss */
 #content_body .ccm-core-commerce-add-to-cart-callout td {
   text-align: left;
 }
 
-/* line 97, master.scss */
+/* line 105, master.scss */
 .clear, .clearfix {
   display: block;
   clear: both;
 }
 
-/* line 102, master.scss */
+/* line 110, master.scss */
 #header_logo {
   width: 151px;
   height: 99px;
@@ -90,12 +97,12 @@ body a:hover {
   float: left;
 }
 
-/* line 110, master.scss */
+/* line 118, master.scss */
 .home_slideshow {
   display: block;
 }
 
-/* line 114, master.scss */
+/* line 122, master.scss */
 #header_navigation {
   display: block;
   float: left;
@@ -108,7 +115,7 @@ body a:hover {
   -webkit-border-radius: 15px;
   border-radius: 15px;
 }
-/* line 125, master.scss */
+/* line 133, master.scss */
 #header_navigation a {
   font-size: 16px;
   text-decoration: none;
@@ -118,12 +125,12 @@ body a:hover {
   color: #fcdb7e;
   text-transform: uppercase;
 }
-/* line 134, master.scss */
+/* line 142, master.scss */
 #header_navigation a.nav-selected, #header_navigation a:hover {
   color: #FFF;
 }
 
-/* line 139, master.scss */
+/* line 147, master.scss */
 #nav_btns {
   display: block;
   float: right;
@@ -133,7 +140,7 @@ body a:hover {
   height: 60px;
   overflow: hidden;
 }
-/* line 149, master.scss */
+/* line 157, master.scss */
 #nav_btns a {
   display: block;
   float: left;
@@ -149,20 +156,20 @@ body a:hover {
   padding-bottom: -80px;
   color: #FFF;
 }
-/* line 164, master.scss */
+/* line 172, master.scss */
 #nav_btns a:hover {
   color: #fcdb7e;
 }
-/* line 169, master.scss */
+/* line 177, master.scss */
 #nav_btns .cart_link {
   background: url(images/cart_btn_trans.png) top left no-repeat;
 }
-/* line 172, master.scss */
+/* line 180, master.scss */
 #nav_btns .login_link {
   background: url(images/login_btn_trans.png) top left no-repeat;
 }
 
-/* line 177, master.scss */
+/* line 185, master.scss */
 #header {
   display: block;
   margin: 0px auto 20px auto;
@@ -171,7 +178,7 @@ body a:hover {
   padding-bottom: 138px;
   background: url(images/prophet_header2.jpg) bottom left no-repeat;
 }
-/* line 185, master.scss */
+/* line 193, master.scss */
 #header .left {
   width: 138px;
   display: block;
@@ -180,7 +187,7 @@ body a:hover {
   background: url(images/top_left.png) top left no-repeat;
   overflow: hidden; */
 }
-/* line 194, master.scss */
+/* line 202, master.scss */
 #header .center {
   width: 969px;
   display: block;
@@ -191,7 +198,7 @@ body a:hover {
   background: url(images/top_center.png) top left no-repeat;
   */
 }
-/* line 205, master.scss */
+/* line 213, master.scss */
 #header .right {
   width: 139px;
   display: block;
@@ -201,7 +208,7 @@ body a:hover {
   */
 }
 
-/* line 217, master.scss */
+/* line 225, master.scss */
 #footer {
   display: block;
   margin: 0px auto 0px auto;
@@ -209,7 +216,7 @@ body a:hover {
   padding-bottom: 100px;
   background: url(images/prophet_footer.jpg) bottom left no-repeat;
 }
-/* line 224, master.scss */
+/* line 232, master.scss */
 #footer .left {
   width: 138px;
   height: 226px;
@@ -220,7 +227,7 @@ body a:hover {
   overflow: hidden;
   */
 }
-/* line 235, master.scss */
+/* line 243, master.scss */
 #footer .center {
   width: 969px;
   height: 226px;
@@ -230,7 +237,7 @@ body a:hover {
   background: url(images/bottom_center.png) top left no-repeat;
   */
 }
-/* line 245, master.scss */
+/* line 253, master.scss */
 #footer .right {
   width: 139px;
   height: 226px;
@@ -240,7 +247,7 @@ body a:hover {
   background: url(images/bottom_right.png) top left no-repeat;
   */
 }
-/* line 255, master.scss */
+/* line 263, master.scss */
 #footer .footer_logo {
   display: block;
   float: right;
@@ -254,7 +261,7 @@ body a:hover {
   top: 75px;
   right: 30px;
 }
-/* line 267, master.scss */
+/* line 275, master.scss */
 #footer .footer_navigation {
   display: block;
   float: left;
@@ -262,7 +269,7 @@ body a:hover {
   left: 20px;
   margin-top: 80px;
 }
-/* line 273, master.scss */
+/* line 281, master.scss */
 #footer .footer_navigation a {
   font-size: 18px;
   text-decoration: none;
@@ -270,15 +277,15 @@ body a:hover {
   margin-right: 2px;
   padding: 5px 7px 5px 7px;
 }
-/* line 280, master.scss */
+/* line 288, master.scss */
 #footer .footer_navigation a {
   font-size: 14px;
 }
-/* line 285, master.scss */
+/* line 293, master.scss */
 #footer .footer_navigation a:hover {
   text-decoration: none;
 }
-/* line 290, master.scss */
+/* line 298, master.scss */
 #footer .copyright {
   display: block;
   font-size: 11px;
@@ -288,17 +295,17 @@ body a:hover {
 }
 
 /* misc classes and tweaks */
-/* line 301, master.scss */
+/* line 309, master.scss */
 #featured_player {
   text-align: center;
 }
 
-/* line 307, master.scss */
+/* line 315, master.scss */
 #container .ccm-block-styles {
   border: none;
 }
 
-/* line 311, master.scss */
+/* line 319, master.scss */
 #container .ccm-button {
   clear: both;
   padding-bottom: 10px;
