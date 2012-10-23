@@ -1,58 +1,58 @@
-/* verison 1.4 - prophet */
-/* line 19, master.scss */
+/* verison 1.5 - in over my head */
+/* line 36, master.scss */
 html, body {
-  background-color: #150802;
+  background-color: #dfdad1;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
-/* line 24, master.scss */
+/* line 42, master.scss */
 body {
-  background: url(images/The-Prophets-Son_web.jpg) top center repeat-x;
+  background: url(images/in-over-my-head-bg.jpg) top center repeat-x;
   background-attachment: fixed;
-  color: #fff;
+  color: #333333;
   margin: 0px;
   padding: 0px;
 }
 
-/* line 35, master.scss */
+/* line 53, master.scss */
 body a {
-  color: #fcdb7e;
+  color: #e91d25;
 }
-/* line 38, master.scss */
+/* line 56, master.scss */
 body a:hover {
-  color: #FFF;
+  color: #dc393f;
 }
 
-/* line 45, master.scss */
+/* line 63, master.scss */
 #container img {
   border: none;
 }
 
-/* line 51, master.scss */
+/* line 69, master.scss */
 #container {
-  background-color: #150802;
+  background-color: white;
   width: 1000px;
   margin: 0px auto 0px auto;
   padding: 0px 20px;
 }
 
-/* line 60, master.scss */
+/* line 78, master.scss */
 #content_body {
   position: relative;
   top: 0px;
   border: none;
   width: 988px;
   margin: 0px auto 0px auto;
-  background-color: #150802;
   padding: 0px;
   display: block;
 }
-/* line 70, master.scss */
+/* line 87, master.scss */
 #content_body .left_sidebar_content {
   display: block;
   width: 250px;
   float: left;
 }
-/* line 76, master.scss */
+/* line 93, master.scss */
 #content_body .right_sidebar_content {
   display: block;
   width: 250px;
@@ -60,77 +60,77 @@ body a:hover {
   position: relative;
   right: -10px;
 }
-/* line 84, master.scss */
+/* line 101, master.scss */
 #content_body .main_content {
   display: block;
   float: left;
   width: 733px;
 }
-/* line 89, master.scss */
+/* line 106, master.scss */
 #content_body .right_content {
   display: block;
   width: 250px;
   float: right;
 }
-/* line 95, master.scss */
+/* line 112, master.scss */
 #content_body .ccm-core-commerce-add-to-cart-callout {
   color: #000;
   text-align: left;
 }
-/* line 98, master.scss */
+/* line 115, master.scss */
 #content_body .ccm-core-commerce-add-to-cart-callout td {
   text-align: left;
 }
 
-/* line 105, master.scss */
+/* line 122, master.scss */
 .clear, .clearfix {
   display: block;
   clear: both;
 }
 
-/* line 110, master.scss */
+/* line 127, master.scss */
 #header_logo {
   width: 151px;
   height: 99px;
   display: block;
-  background: url(images/header_logo_trans.png) top left no-repeat;
+  background: url(images/header_logo_trans_dark.png) top left no-repeat;
   float: left;
 }
 
-/* line 118, master.scss */
+/* line 135, master.scss */
 .home_slideshow {
   display: block;
 }
 
-/* line 122, master.scss */
+/* line 139, master.scss */
 #header_navigation {
   display: block;
   float: left;
   position: relative;
-  top: 80px;
+  top: 240px;
   left: 20px;
-  background: url(images/strong_headernav_bg.png) top left repeat-x;
+  background: #333;
   padding: 10px;
   -moz-border-radius: 15px;
   -webkit-border-radius: 15px;
   border-radius: 15px;
 }
-/* line 133, master.scss */
+/* line 150, master.scss */
 #header_navigation a {
   font-size: 16px;
   text-decoration: none;
   margin-left: 2px;
   margin-right: 2px;
   padding: 5px 7px 5px 7px;
-  color: #fcdb7e;
+  color: white;
   text-transform: uppercase;
 }
-/* line 142, master.scss */
+/* line 159, master.scss */
 #header_navigation a.nav-selected, #header_navigation a:hover {
-  color: #FFF;
+  color: #e91d25;
 }
 
-/* line 147, master.scss */
+/* line 164, master.scss */
 #nav_btns {
   display: block;
   float: right;
@@ -140,7 +140,7 @@ body a:hover {
   height: 60px;
   overflow: hidden;
 }
-/* line 157, master.scss */
+/* line 174, master.scss */
 #nav_btns a {
   display: block;
   float: left;
@@ -154,31 +154,31 @@ body a:hover {
   text-align: center;
   padding-top: 41px;
   padding-bottom: -80px;
-  color: #FFF;
+  color: #e91d25;
 }
-/* line 172, master.scss */
+/* line 189, master.scss */
 #nav_btns a:hover {
-  color: #fcdb7e;
+  color: #dc393f;
 }
-/* line 177, master.scss */
+/* line 194, master.scss */
 #nav_btns .cart_link {
-  background: url(images/cart_btn_trans.png) top left no-repeat;
+  background: url(images/cart_btn_trans_2.png) top left no-repeat;
 }
-/* line 180, master.scss */
+/* line 197, master.scss */
 #nav_btns .login_link {
-  background: url(images/login_btn_trans.png) top left no-repeat;
+  background: url(images/login_btn_trans_2.png) top left no-repeat;
 }
 
-/* line 185, master.scss */
+/* line 202, master.scss */
 #header {
   display: block;
   margin: 0px auto 20px auto;
   width: 1000px;
   height: 140px;
   padding-bottom: 138px;
-  background: url(images/prophet_header2.jpg) bottom left no-repeat;
+  background: url(images/in-over-my-head-header.jpg) 0px -150px no-repeat;
 }
-/* line 193, master.scss */
+/* line 209, master.scss */
 #header .left {
   width: 138px;
   display: block;
@@ -187,7 +187,7 @@ body a:hover {
   background: url(images/top_left.png) top left no-repeat;
   overflow: hidden; */
 }
-/* line 202, master.scss */
+/* line 218, master.scss */
 #header .center {
   width: 969px;
   display: block;
@@ -198,7 +198,7 @@ body a:hover {
   background: url(images/top_center.png) top left no-repeat;
   */
 }
-/* line 213, master.scss */
+/* line 229, master.scss */
 #header .right {
   width: 139px;
   display: block;
@@ -208,15 +208,15 @@ body a:hover {
   */
 }
 
-/* line 225, master.scss */
+/* line 241, master.scss */
 #footer {
   display: block;
   margin: 0px auto 0px auto;
   width: 1000px;
   padding-bottom: 100px;
-  background: url(images/prophet_footer.jpg) bottom left no-repeat;
+  background: url(images/in-over-my-head-footer.jpg) bottom left no-repeat;
 }
-/* line 232, master.scss */
+/* line 248, master.scss */
 #footer .left {
   width: 138px;
   height: 226px;
@@ -227,7 +227,7 @@ body a:hover {
   overflow: hidden;
   */
 }
-/* line 243, master.scss */
+/* line 259, master.scss */
 #footer .center {
   width: 969px;
   height: 226px;
@@ -237,7 +237,7 @@ body a:hover {
   background: url(images/bottom_center.png) top left no-repeat;
   */
 }
-/* line 253, master.scss */
+/* line 269, master.scss */
 #footer .right {
   width: 139px;
   height: 226px;
@@ -247,13 +247,13 @@ body a:hover {
   background: url(images/bottom_right.png) top left no-repeat;
   */
 }
-/* line 263, master.scss */
+/* line 279, master.scss */
 #footer .footer_logo {
   display: block;
   float: right;
   width: 151px;
   height: 99px;
-  background: url(images/header_logo_trans.png) top left no-repeat;
+  background: url(images/header_logo_trans_dark.png) top left no-repeat;
   opacity: 0.1;
   filter: alpha(opacity=10);
   zoom: 1;
@@ -261,7 +261,7 @@ body a:hover {
   top: 75px;
   right: 30px;
 }
-/* line 275, master.scss */
+/* line 291, master.scss */
 #footer .footer_navigation {
   display: block;
   float: left;
@@ -269,7 +269,7 @@ body a:hover {
   left: 20px;
   margin-top: 80px;
 }
-/* line 281, master.scss */
+/* line 297, master.scss */
 #footer .footer_navigation a {
   font-size: 18px;
   text-decoration: none;
@@ -277,15 +277,15 @@ body a:hover {
   margin-right: 2px;
   padding: 5px 7px 5px 7px;
 }
-/* line 288, master.scss */
+/* line 304, master.scss */
 #footer .footer_navigation a {
   font-size: 14px;
 }
-/* line 293, master.scss */
+/* line 309, master.scss */
 #footer .footer_navigation a:hover {
   text-decoration: none;
 }
-/* line 298, master.scss */
+/* line 314, master.scss */
 #footer .copyright {
   display: block;
   font-size: 11px;
@@ -295,17 +295,17 @@ body a:hover {
 }
 
 /* misc classes and tweaks */
-/* line 309, master.scss */
+/* line 325, master.scss */
 #featured_player {
   text-align: center;
 }
 
-/* line 315, master.scss */
+/* line 331, master.scss */
 #container .ccm-block-styles {
   border: none;
 }
 
-/* line 319, master.scss */
+/* line 335, master.scss */
 #container .ccm-button {
   clear: both;
   padding-bottom: 10px;

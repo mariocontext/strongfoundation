@@ -22,10 +22,12 @@ footer a:hover {
 h1, h2, h3, h4, h5, h6 {
 	padding: 2px;
 	font-weight: bold;
+	color:#e91d25;
+	text-transform: uppercase;
 }
 
 #container h1, #container h2, #container h3, #container h4 {
-font-family: 'NovecentowideNormalRegular';
+
 }
 
 #content h1 {
@@ -60,11 +62,6 @@ font-family: 'NovecentowideNormalRegular';
 
 body {
 	/* font-family: 'QuicksandBook'; */
-	color: #444;
-	background-color: #e5e5e5;	
-	font-size: 14px;
-	line-height: 20px;
-	font-family: Arial, Verdana, Helvetica, sans-serif;
 }
 
 #featured {
@@ -80,20 +77,14 @@ body {
 	padding-right: 7%;
 	padding-top: 20px;
 	padding-bottom: 20px;
-	background-color: #fff;
 	float: left;
 }
 
 footer {
-	color: #dddddd;
 	padding-left: 5%;
 	padding-right: 5%;
 	width: 90%;
-	background-color: black;
 	padding-top: 20px;
-	border-top-color: #666666;
-	border-top-style: solid;
-	border-top-width: 1px;
 	float: left;
 }
 
