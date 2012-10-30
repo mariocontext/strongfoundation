@@ -1,4 +1,4 @@
-/* verison 1.5 - in over my head */
+/* verison 1.6 - in over my head */
 
 @mixin round_corners($radius) {
   -moz-border-radius: $radius;
@@ -137,24 +137,29 @@ padding:0px 20px;
 }
 
 #header_navigation {
+
   display: block;
   float: left;
-  position: relative;
-    top: 240px;
-    left:20px;
-    background:#333;
-padding:10px;
-
-@include round_corners(15px);
+  position: absolute;
+  width:100%;
+  top: 240px;
+  left: -14px;
+  background: #333;
+  padding: 10px;
 
   a {
     font-size: 16px;
     text-decoration: none;
     margin-left: 2px;
     margin-right: 2px;
-    padding: 5px 7px 5px 7px;
+    padding: 5px 50px 5px 7px;
     color:$header-nav-anchor;
     text-transform:uppercase;
+    position:relative;
+    left:60px;
+    font-weight: 700;
+    filter: dropshadow(color=#000000, offx=2, offy=2);
+    text-shadow: 2px 2px 2px #000;
   }
   a.nav-selected, a:hover {
     color: $header-nav-anchor-hover;
@@ -205,7 +210,7 @@ padding:10px;
   width: $width;
   height: 140px;
   padding-bottom:138px;
-  background: url(images/in-over-my-head-header.jpg) 0px -150px no-repeat;
+  background: url(images/in-over-my-head-header.jpg) 7px -150px no-repeat;
   .left {
     width: 138px;
     display: block;

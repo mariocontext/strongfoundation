@@ -1,4 +1,4 @@
-/* verison 1.5 - in over my head */
+/* verison 1.6 - in over my head */
 /* line 36, master.scss */
 html, body {
   background-color: #dfdad1;
@@ -106,14 +106,12 @@ body a:hover {
 #header_navigation {
   display: block;
   float: left;
-  position: relative;
+  position: absolute;
+  width: 100%;
   top: 240px;
-  left: 20px;
+  left: -14px;
   background: #333;
   padding: 10px;
-  -moz-border-radius: 15px;
-  -webkit-border-radius: 15px;
-  border-radius: 15px;
 }
 /* line 150, master.scss */
 #header_navigation a {
@@ -121,16 +119,21 @@ body a:hover {
   text-decoration: none;
   margin-left: 2px;
   margin-right: 2px;
-  padding: 5px 7px 5px 7px;
+  padding: 5px 50px 5px 7px;
   color: white;
   text-transform: uppercase;
+  position: relative;
+  left: 60px;
+  font-weight: 700;
+  filter: dropshadow(color=black, offx=2, offy=2);
+  text-shadow: 2px 2px 2px #000;
 }
-/* line 159, master.scss */
+/* line 164, master.scss */
 #header_navigation a.nav-selected, #header_navigation a:hover {
   color: #e91d25;
 }
 
-/* line 164, master.scss */
+/* line 169, master.scss */
 #nav_btns {
   display: block;
   float: right;
@@ -140,7 +143,7 @@ body a:hover {
   height: 60px;
   overflow: hidden;
 }
-/* line 174, master.scss */
+/* line 179, master.scss */
 #nav_btns a {
   display: block;
   float: left;
@@ -156,29 +159,29 @@ body a:hover {
   padding-bottom: -80px;
   color: #e91d25;
 }
-/* line 189, master.scss */
+/* line 194, master.scss */
 #nav_btns a:hover {
   color: #dc393f;
 }
-/* line 194, master.scss */
+/* line 199, master.scss */
 #nav_btns .cart_link {
   background: url(images/cart_btn_trans_2.png) top left no-repeat;
 }
-/* line 197, master.scss */
+/* line 202, master.scss */
 #nav_btns .login_link {
   background: url(images/login_btn_trans_2.png) top left no-repeat;
 }
 
-/* line 202, master.scss */
+/* line 207, master.scss */
 #header {
   display: block;
   margin: 0px auto 20px auto;
   width: 1000px;
   height: 140px;
   padding-bottom: 138px;
-  background: url(images/in-over-my-head-header.jpg) 0px -150px no-repeat;
+  background: url(images/in-over-my-head-header.jpg) 7px -150px no-repeat;
 }
-/* line 209, master.scss */
+/* line 214, master.scss */
 #header .left {
   width: 138px;
   display: block;
@@ -187,7 +190,7 @@ body a:hover {
   background: url(images/top_left.png) top left no-repeat;
   overflow: hidden; */
 }
-/* line 218, master.scss */
+/* line 223, master.scss */
 #header .center {
   width: 969px;
   display: block;
@@ -198,7 +201,7 @@ body a:hover {
   background: url(images/top_center.png) top left no-repeat;
   */
 }
-/* line 229, master.scss */
+/* line 234, master.scss */
 #header .right {
   width: 139px;
   display: block;
@@ -208,7 +211,7 @@ body a:hover {
   */
 }
 
-/* line 241, master.scss */
+/* line 246, master.scss */
 #footer {
   display: block;
   margin: 0px auto 0px auto;
@@ -216,7 +219,7 @@ body a:hover {
   padding-bottom: 100px;
   background: url(images/in-over-my-head-footer.jpg) bottom left no-repeat;
 }
-/* line 248, master.scss */
+/* line 253, master.scss */
 #footer .left {
   width: 138px;
   height: 226px;
@@ -227,7 +230,7 @@ body a:hover {
   overflow: hidden;
   */
 }
-/* line 259, master.scss */
+/* line 264, master.scss */
 #footer .center {
   width: 969px;
   height: 226px;
@@ -237,7 +240,7 @@ body a:hover {
   background: url(images/bottom_center.png) top left no-repeat;
   */
 }
-/* line 269, master.scss */
+/* line 274, master.scss */
 #footer .right {
   width: 139px;
   height: 226px;
@@ -247,7 +250,7 @@ body a:hover {
   background: url(images/bottom_right.png) top left no-repeat;
   */
 }
-/* line 279, master.scss */
+/* line 284, master.scss */
 #footer .footer_logo {
   display: block;
   float: right;
@@ -261,7 +264,7 @@ body a:hover {
   top: 75px;
   right: 30px;
 }
-/* line 291, master.scss */
+/* line 296, master.scss */
 #footer .footer_navigation {
   display: block;
   float: left;
@@ -269,7 +272,7 @@ body a:hover {
   left: 20px;
   margin-top: 80px;
 }
-/* line 297, master.scss */
+/* line 302, master.scss */
 #footer .footer_navigation a {
   font-size: 18px;
   text-decoration: none;
@@ -277,15 +280,15 @@ body a:hover {
   margin-right: 2px;
   padding: 5px 7px 5px 7px;
 }
-/* line 304, master.scss */
+/* line 309, master.scss */
 #footer .footer_navigation a {
   font-size: 14px;
 }
-/* line 309, master.scss */
+/* line 314, master.scss */
 #footer .footer_navigation a:hover {
   text-decoration: none;
 }
-/* line 314, master.scss */
+/* line 319, master.scss */
 #footer .copyright {
   display: block;
   font-size: 11px;
@@ -295,17 +298,17 @@ body a:hover {
 }
 
 /* misc classes and tweaks */
-/* line 325, master.scss */
+/* line 330, master.scss */
 #featured_player {
   text-align: center;
 }
 
-/* line 331, master.scss */
+/* line 336, master.scss */
 #container .ccm-block-styles {
   border: none;
 }
 
-/* line 335, master.scss */
+/* line 340, master.scss */
 #container .ccm-button {
   clear: both;
   padding-bottom: 10px;
